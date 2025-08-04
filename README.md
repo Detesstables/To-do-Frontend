@@ -17,7 +17,7 @@ Una interfaz de usuario para una aplicación de lista de tareas, creada con Reac
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/Detesstables/todo-list-frontend.git](https://github.com/Detesstables/To-do-Backend.git)
+    git clone [https://github.com/Detesstables/todo-list-frontend.git](https://github.com/Detesstables/To-do-Frontend.git)
     cd todo-list-frontend
     ```
 

@@ -1,6 +1,6 @@
 # To-Do Frontend
 
-Una interfaz de usuario para una aplicación de lista de tareas, creada con React y Tailwind CSS. Este proyecto demuestra mis habilidades en el desarrollo de aplicaciones web interactivas y su conexión con una API RESTful.
+Una interfaz de usuario para una aplicación de lista de tareas, creada con React y Tailwind CSS. Este proyecto demuestra mis habilidades en el desarrollo de aplicaciones web interactivas y su conexión con una API RESTful. Este proyecto fue desarrollado por Jorge Rebaza
 
 
 
@@ -17,7 +17,7 @@ Una interfaz de usuario para una aplicación de lista de tareas, creada con Reac
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/Detesstables/todo-list-frontend.git](https://github.com/Detesstables/todo-list-frontend.git)
+    git clone [https://github.com/Detesstables/todo-list-frontend.git](https://github.com/Detesstables/To-do-Backend.git)
     cd todo-list-frontend
     ```
 
@@ -46,3 +46,4 @@ El frontend se conecta a la API en la siguiente URL, la cual se encuentra defini
 ### 📝 Licencia
 
 Este proyecto está bajo la Licencia MIT.
+

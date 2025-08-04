@@ -1,74 +1,48 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# To-Do Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una interfaz de usuario para una aplicación de lista de tareas, creada con React y Tailwind CSS. Este proyecto demuestra mis habilidades en el desarrollo de aplicaciones web interactivas y su conexión con una API RESTful.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### 🚀 Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+* **Vite**: Herramienta de construcción rápida para proyectos web modernos.
+* **TypeScript**: Para un código más robusto y con tipado estático.
+* **Tailwind CSS**: Framework de CSS utilitario para un diseño rápido y personalizable.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### ⚙️ Instalación y Configuración
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/Detesstables/todo-list-frontend.git](https://github.com/Detesstables/todo-list-frontend.git)
+    cd todo-list-frontend
+    ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3.  **Ejecuta la aplicación en modo desarrollo:**
+    ```bash
+    npm run dev
+    ```
+    La aplicación se ejecutará en `http://localhost:5173`.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-=======
-# To-do-Frontend
-Frontend para la aplicación de lista de tareas, creado con React y Tailwind CSS para mi portafolio personal.
->>>>>>> 893e3cc4c2367a049ba8ffeb07e70ba863dada1f
+**Nota:** Esta aplicación de frontend se conecta a un backend. Asegúrate de tener el [repositorio del backend] https://github.com/Detesstables/To-do-Backend corriendo localmente para que la aplicación funcione correctamente.
+
+---
+
+### 🔗 Conexión con el Backend
+
+El frontend se conecta a la API en la siguiente URL, la cual se encuentra definida en el archivo `src/api/todoApi.ts`:
+`http://localhost:3000/api/todos`
+
+---
+
+### 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT.

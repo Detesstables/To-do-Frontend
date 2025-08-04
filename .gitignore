@@ -1,3 +1,5 @@
+#archivos que no se deben subir al repositorio
+
 # Logs
 logs
 *.log

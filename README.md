@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -67,3 +68,7 @@ export default tseslint.config([
   },
 ])
 ```
+=======
+# To-do-Frontend
+Frontend para la aplicación de lista de tareas, creado con React y Tailwind CSS para mi portafolio personal.
+>>>>>>> 893e3cc4c2367a049ba8ffeb07e70ba863dada1f
